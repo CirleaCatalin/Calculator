@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "VT323", monospace;
+  background-color: #ededed;
+}
+
+body {
+  color: #333;
+  line-height: 1.5;
+  height: 100vh;
+}
+h1 {
+  font-size: 50px;
+  color: black;
+  text-shadow: 5px 5px white;
+}
+.mid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calculator {
+  width: 400px;
+  height: 550px;
+  border: 2px #333 solid;
+  border-radius: 15px;
+  padding: 15px;
+}
+.screen {
+  height: 10vh;
+  border: 2px #333 solid;
+  padding: 10px;
+  margin-bottom: 25px;
+  border-radius: 15px;
+}
+
+.top {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+}
+
+.mid {
+  height: 85vh;
+}
+.buttons {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(4, 1fr);
+}
+button {
+  border: none;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn {
+  margin: 5px;
+  padding: 20px;
+  border: 2px #333 solid;
+  border-radius: 5px;
+  background-color: #f6f6f6;
+  font-size: 20px;
+}
+
+.one {
+  grid-column: 1/3;
+  grid-row: 1;
+}
+
+.two {
+  grid-column: 3/5;
+  grid-row: 1;
+}
+
+footer {
+  display: flex;
+  height: 5vh;
+  font-size: 25px;
+  justify-content: center;
+}
+.made {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gitfoot {
+  display: flex;
+  align-items: center;
+}
+#cata {
+  margin-left: 10px;
+}
+#gh-logo {
+  width: 35px;
+  height: 35px;
+}
